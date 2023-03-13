@@ -5488,7 +5488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   speed: 10
-  laserPrefab: {fileID: 2229393734585481292, guid: 7aed01e456c32a341b2e6d660308c877,
+  laserPrefab: {fileID: 1222478968052948, guid: 14a510790c4486a4e9105dca33b4c366,
     type: 3}
   enemyPrefab: {fileID: 6231400087724380729, guid: bbb12be0e66138849a65d7382bfe79f5,
     type: 3}
