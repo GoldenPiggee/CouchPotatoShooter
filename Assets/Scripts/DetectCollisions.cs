@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class DetectCollisions : MonoBehaviour
 {
-
-    private void OnTriggerEnter(Collider other)
+    public int score = 0;
+    public void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
         Destroy(other.gameObject);
     }
+
 }
