@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class PointCounter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int score;
+    public GameObject enemy;
+    void OnDestroy()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        score++;
     }
 }
